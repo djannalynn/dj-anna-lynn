@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Anna Lynn - Official Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(to right, #ff007f, #ffd700);
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            margin: 50px 0;
+            padding: 20px;
+            border-radius: 10px;
+            background: #1a1a1a;
+            box-shadow: 0 4px 8px rgba(255, 215, 0, 0.2);
+        }
+        .section h2 {
+            color: #ffd700;
+        }
+        .promo {
+            background: linear-gradient(to right, #ff007f, #ffd700);
+            padding: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 10px;
+            color: #000;
+        }
+        .socials a {
+            color: #ffd700;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .video-container {
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .instagram iframe {
+            width: 100%;
+            max-width: 400px;
+            height: 500px;
+            border: none;
+            margin: 10px;
+        }
+        video {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 215, 0, 0.4);
+            transition: transform 0.3s ease-in-out;
+        }
+        video:hover {
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/Untitled design.png" alt="DJ Anna Lynn Logo" width="150">
+        <p>DJ Anna Lynn - Official Website</p>
+    </header>
+    <div class="container">
+        <div class="section bio">
+            <h2>About Anna Lynn</h2>
+            <p>DJ Anna Lynn is a rising star in the DJ scene, known for her electrifying mixes and a passion for uplifting female artists. She brings bold energy to every event, making her a favorite among festival-goers.</p>
+        </div>
+        <div class="section promo">
+            <p>🔥 Use promo code: <strong>DJANNALYNN</strong> for $10 off at High Tide Festival! 🔥</p>
+            <a href="https://posh.vip/f/1201b?t=website" style="color:#000; text-decoration: none; font-weight: bold;">🎟️ Buy Tickets Here</a>
+        </div>
+        <div class="section videos">
+            <h2>🎥 Watch Anna Lynn Perform</h2>
+            <video controls><source src="/mnt/data/IMG_8558.MOV" type="video/mp4"></video>
+            <video controls><source src="/mnt/data/IMG_8760.MOV" type="video/mp4"></video>
+            <video controls><source src="/mnt/data/IMG_9105.MOV" type="video/mp4"></video>
+        </div>
+        <div class="section music">
+            <h2>🎶 Listen to Anna Lynn</h2>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//on.soundcloud.com/eJD94kzxGh4VFWa57&color=%23ff007f&auto_play=false">
+            </iframe>
+        </div>
+        <div class="section socials">
+            <h2>🌟 Follow Anna Lynn</h2>
+            <a href="https://www.instagram.com/annalynngreen/">📸 Instagram</a>
+            <a href="https://on.soundcloud.com/eJD94kzxGh4VFWa57">🎧 SoundCloud</a>
+        </div>
+    </div>
+</body>
+</html>
